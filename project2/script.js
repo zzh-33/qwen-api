@@ -100,7 +100,7 @@ function sendMessage() {
             { role: "system", content: "You are an emotional companionship assistant specifically designed to serve elderly people" },
             { role: "user", content: message }
         ],
-        stream: Ture
+        stream: True
     };
 
     fetch(endpoint, {
