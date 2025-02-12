@@ -121,6 +121,7 @@ function sendMessage() {
                 助手：好呀，要是还有别的事，随时和我说，我陪着您呢。
                 `
             },
+            { role: "user", content: '你是谁？'},
             { role: "user", content: message }
         ],
         stream: false,
