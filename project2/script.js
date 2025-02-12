@@ -97,10 +97,10 @@ function sendMessage() {
     const payload = {
         model: "deepseek-chat",
         messages: [
-            { role: "system", content: "You are a helpful assistant" },
+            { role: "system", content: "You are an emotional companionship assistant specifically designed to serve elderly people" },
             { role: "user", content: message }
         ],
-        stream: false
+        stream: Ture
     };
 
     fetch(endpoint, {
