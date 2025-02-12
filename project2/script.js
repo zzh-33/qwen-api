@@ -95,7 +95,7 @@ function sendMessage() {
     const endpoint = 'https://dashscope.aliyuncs.com/compatible-mode/v1/chat/completions';
 
     const payload = {
-        model: "deepseek-chat",
+        model: "qwen-plus",
         messages: [
             { role: "system", content: 
                 `
