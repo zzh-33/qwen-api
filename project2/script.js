@@ -128,7 +128,7 @@ function sendMessage() {
         max-tokens: 2000
     };
 
-    fetch(endpoint, {
+fetch(endpoint, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
